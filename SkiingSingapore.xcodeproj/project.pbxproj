@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0231C6441CE5E2CD00CE8843 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231C6431CE5E2CD00CE8843 /* AppDelegate.swift */; };
+		0231C6461CE5E2CD00CE8843 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231C6451CE5E2CD00CE8843 /* ViewController.swift */; };
+		0231C6481CE5E2CD00CE8843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0231C6471CE5E2CD00CE8843 /* Assets.xcassets */; };
+		0231C64B1CE5E2CD00CE8843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0231C6491CE5E2CD00CE8843 /* Main.storyboard */; };
+		0231C6531CE5E2DF00CE8843 /* SkiingSingapore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231C6521CE5E2DF00CE8843 /* SkiingSingapore.swift */; };
+		0231C6551CE5E2FE00CE8843 /* map.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0231C6541CE5E2FE00CE8843 /* map.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0231C6401CE5E2CD00CE8843 /* SkiingSingapore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkiingSingapore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0231C6431CE5E2CD00CE8843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0231C6451CE5E2CD00CE8843 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0231C6471CE5E2CD00CE8843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0231C64A1CE5E2CD00CE8843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0231C64C1CE5E2CD00CE8843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0231C6521CE5E2DF00CE8843 /* SkiingSingapore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkiingSingapore.swift; sourceTree = "<group>"; };
+		0231C6541CE5E2FE00CE8843 /* map.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0231C63D1CE5E2CD00CE8843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0231C6371CE5E2CD00CE8843 = {
+			isa = PBXGroup;
+			children = (
+				0231C6421CE5E2CD00CE8843 /* SkiingSingapore */,
+				0231C6411CE5E2CD00CE8843 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0231C6411CE5E2CD00CE8843 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0231C6401CE5E2CD00CE8843 /* SkiingSingapore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0231C6421CE5E2CD00CE8843 /* SkiingSingapore */ = {
+			isa = PBXGroup;
+			children = (
+				0231C6431CE5E2CD00CE8843 /* AppDelegate.swift */,
+				0231C6451CE5E2CD00CE8843 /* ViewController.swift */,
+				0231C6471CE5E2CD00CE8843 /* Assets.xcassets */,
+				0231C6491CE5E2CD00CE8843 /* Main.storyboard */,
+				0231C64C1CE5E2CD00CE8843 /* Info.plist */,
+				0231C6521CE5E2DF00CE8843 /* SkiingSingapore.swift */,
+				0231C6541CE5E2FE00CE8843 /* map.txt */,
+			);
+			path = SkiingSingapore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0231C63F1CE5E2CD00CE8843 /* SkiingSingapore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0231C64F1CE5E2CD00CE8843 /* Build configuration list for PBXNativeTarget "SkiingSingapore" */;
+			buildPhases = (
+				0231C63C1CE5E2CD00CE8843 /* Sources */,
+				0231C63D1CE5E2CD00CE8843 /* Frameworks */,
+				0231C63E1CE5E2CD00CE8843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkiingSingapore;
+			productName = SkiingSingapore;
+			productReference = 0231C6401CE5E2CD00CE8843 /* SkiingSingapore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0231C6381CE5E2CD00CE8843 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Buu Bui";
+				TargetAttributes = {
+					0231C63F1CE5E2CD00CE8843 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 0231C63B1CE5E2CD00CE8843 /* Build configuration list for PBXProject "SkiingSingapore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0231C6371CE5E2CD00CE8843;
+			productRefGroup = 0231C6411CE5E2CD00CE8843 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0231C63F1CE5E2CD00CE8843 /* SkiingSingapore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0231C63E1CE5E2CD00CE8843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0231C6551CE5E2FE00CE8843 /* map.txt in Resources */,
+				0231C6481CE5E2CD00CE8843 /* Assets.xcassets in Resources */,
+				0231C64B1CE5E2CD00CE8843 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0231C63C1CE5E2CD00CE8843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0231C6531CE5E2DF00CE8843 /* SkiingSingapore.swift in Sources */,
+				0231C6461CE5E2CD00CE8843 /* ViewController.swift in Sources */,
+				0231C6441CE5E2CD00CE8843 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0231C6491CE5E2CD00CE8843 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0231C64A1CE5E2CD00CE8843 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0231C64D1CE5E2CD00CE8843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0231C64E1CE5E2CD00CE8843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0231C6501CE5E2CD00CE8843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SkiingSingapore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buubui.SkiingSingapore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0231C6511CE5E2CD00CE8843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SkiingSingapore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buubui.SkiingSingapore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0231C63B1CE5E2CD00CE8843 /* Build configuration list for PBXProject "SkiingSingapore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0231C64D1CE5E2CD00CE8843 /* Debug */,
+				0231C64E1CE5E2CD00CE8843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0231C64F1CE5E2CD00CE8843 /* Build configuration list for PBXNativeTarget "SkiingSingapore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0231C6501CE5E2CD00CE8843 /* Debug */,
+				0231C6511CE5E2CD00CE8843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0231C6381CE5E2CD00CE8843 /* Project object */;
+}
